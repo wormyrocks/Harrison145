@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "EEF-KX0E221RE")(type "KiCad")(uri "${KIPRJMOD}/Libraries/EEF-KX0E221RE")(options "")(descr ""))
+  (lib (name "Theremin")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Theremin.pretty")(options "")(descr ""))
+)

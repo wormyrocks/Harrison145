@@ -164,11 +164,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/2ff47750-3e84-4290-bd9b-2c754b9f516e")
     (attr smd)
-    (fp_text reference "R21" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R21" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07085585-0756-4fc0-b12f-443638eac464)
     )
-    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 632620e3-f634-463e-b81c-c772a73be2c6)
     )
@@ -206,11 +206,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/bd191e7d-cc4e-4f67-ae69-7547b36dbbd7")
     (attr smd)
-    (fp_text reference "C26" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C26" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9dcf8efc-23e5-4dde-9cdd-1f558907ac6e)
     )
-    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db8ebee2-36bd-4067-9a89-ce435c7da04b)
     )
@@ -248,11 +248,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/ff6b9bbd-42f6-4537-9715-0ef9617518e1")
     (attr smd)
-    (fp_text reference "CR2" (at -0.775 -1.75 90) (layer "F.SilkS")
+    (fp_text reference "CR2" (at -0.775 -1.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 56b56fef-29d0-4a99-b59e-56dc089fdc54)
     )
-    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab")
+    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87b216c2-6fa0-40f9-815f-755d98fc3578)
     )
@@ -297,11 +297,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/f53e7eac-38f1-47cb-9db3-38054398f1ec")
     (attr smd)
-    (fp_text reference "R37" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R37" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c23f402-a9f6-4567-8e20-916b242669bc)
     )
-    (fp_text value "10k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b78ac3e2-ba41-4bb1-ba9b-57794f020936)
     )
@@ -339,11 +339,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/fc5d1762-55aa-4227-b29f-321be21d28a9")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C12" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e0b2684-43ee-4df3-8e91-c7133d160ca2)
     )
-    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f6e829f2-d710-414d-b9da-9b52ff9fcb06)
     )
@@ -379,11 +379,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/8e133db5-6bfb-4453-8604-c1ae7736c97f")
     (attr through_hole)
-    (fp_text reference "C39" (at -1.475 -3.273 90) (layer "F.SilkS")
+    (fp_text reference "C39" (at -1.475 -3.273 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e8fef722-bb8b-4348-b324-cfd1e40e6a9e)
     )
-    (fp_text value "220uF" (at 6.145 3.273 90) (layer "F.Fab")
+    (fp_text value "220uF" (at 6.145 3.273 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 682b476e-7a8c-426c-b942-0f743235dcb7)
     )
@@ -423,11 +423,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/6f47fc17-939f-4eda-86e6-8aa5656872dc")
     (attr smd)
-    (fp_text reference "C23" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C23" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb0cf38b-ef23-490a-b2b2-6db3883d0380)
     )
-    (fp_text value "0.1uF" (at -2 1.43) (layer "F.Fab")
+    (fp_text value "0.1uF" (at -2 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 394a5d84-a2d3-48a1-99f1-b9b281551dab)
     )
@@ -465,11 +465,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/9e4e8808-a498-41f8-bf08-97064deace8d")
     (attr smd)
-    (fp_text reference "CR4" (at 0 -2.5) (layer "F.SilkS")
+    (fp_text reference "CR4" (at 0 -2.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 396633f6-6c83-4d2d-86fb-71019bc011b0)
     )
-    (fp_text value "SM4001" (at -0.25 2.5) (layer "F.Fab")
+    (fp_text value "SM4001" (at -0.25 2.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9eeed3aa-3d45-4771-bf56-022770061e2c)
     )
@@ -514,11 +514,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/6d019d35-cd54-4cbe-88a3-8ac933ab2d8d")
     (attr smd)
-    (fp_text reference "R24" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R24" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2615a8bf-b08b-4961-bef8-662b73aefbdd)
     )
-    (fp_text value "3300" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3300" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e8c4907-7e99-4bfd-b426-e77f90cb2e07)
     )
@@ -593,11 +593,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/22fba55d-3087-4313-9465-2e619094d688")
     (attr smd)
-    (fp_text reference "C19" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C19" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9e986d6c-9dea-44ff-932c-e5983e8639f6)
     )
-    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3faf2034-e5bf-4bd3-952d-2e3d76bdb118)
     )
@@ -635,11 +635,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/d9f8fb15-8a8b-49e8-ba00-86135f54e579")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R15" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 82cc3f35-54f3-469e-8e3e-e8d69bb2937e)
     )
-    (fp_text value "2200" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e028d787-3d3c-496f-8203-bf41cfa30ea1)
     )
@@ -677,11 +677,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/5c891dd3-fe21-42e2-905d-50fd9dd3ae6f")
     (attr smd)
-    (fp_text reference "C41" (at 0 -1.58) (layer "F.SilkS")
+    (fp_text reference "C41" (at 0 -1.58) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34c3d86f-68c2-459e-aba8-0a4001ce70f2)
     )
-    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bed2f0d0-a6b4-4f60-91ec-516685ae1bab)
     )
@@ -768,11 +768,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/37577a34-2eca-4377-b0c4-dd3d86d3f467")
     (attr through_hole)
-    (fp_text reference "C24_TEST1" (at 1.25 -2.05) (layer "F.SilkS")
+    (fp_text reference "C24_TEST1" (at 1.25 -2.05) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eb279316-be45-4c4e-95ce-fb0275dc7228)
     )
-    (fp_text value "C" (at 1.25 2.05) (layer "F.Fab")
+    (fp_text value "C" (at 1.25 2.05) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 31fa8b8f-023f-4030-8eed-6772464ad044)
     )
@@ -810,11 +810,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/6567f2a5-a22c-4fbb-bf07-9f5c98cdc7b9")
     (attr smd)
-    (fp_text reference "CR6" (at 0 -2.5 90) (layer "F.SilkS")
+    (fp_text reference "CR6" (at 0 -2.5 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3765eed4-9108-4de0-a631-7f59a7ada2c8)
     )
-    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab")
+    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 733a204c-c322-4aed-972a-1d5919616ae9)
     )
@@ -857,11 +857,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/82cd7480-0505-45f4-9887-6cd384f6a98e")
     (attr through_hole)
-    (fp_text reference "C32" (at -1.475 -3.273) (layer "F.SilkS")
+    (fp_text reference "C32" (at -1.475 -3.273) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2259e43e-642c-44bf-aab0-c7fe056f06bd)
     )
-    (fp_text value "220uF" (at 6.145 3.273) (layer "F.Fab")
+    (fp_text value "220uF" (at 6.145 3.273) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7727e9d6-aea9-4097-b7f2-9398333f7f50)
     )
@@ -901,11 +901,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/593ba7d2-f86e-4bb4-a681-554378868365")
     (attr smd)
-    (fp_text reference "R46" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R46" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ae829f6b-32f8-46e5-a2cb-84140040aa26)
     )
-    (fp_text value "220" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "220" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b6f0b43-9839-4b45-a51a-2beafa7d4482)
     )
@@ -943,11 +943,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/99a9431b-c1b0-448a-b4e2-b3d5c6114b62")
     (attr smd)
-    (fp_text reference "R56" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R56" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8594c394-9481-4bee-bdde-d08e509c9338)
     )
-    (fp_text value "20.0K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "20.0K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a2966aa-3f19-4814-a01e-57d4a2c1fe5c)
     )
@@ -985,11 +985,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/915ff320-079d-478d-a462-3d6778dc736c")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.58 90) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.58 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f8ec3bd8-d5a6-4a1b-8c0d-28524759fb0e)
     )
-    (fp_text value "1uF" (at 0 1.58 90) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3abfee28-a4d1-40fc-aab2-9fab8508b8f1)
     )
@@ -1029,11 +1029,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/bc7113f1-58f9-4259-ab1e-a84966462c61")
     (attr smd)
-    (fp_text reference "R28" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R28" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 32cb54e1-65ef-4dc1-833e-8bd05770c59b)
     )
-    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24a0a1f5-2dab-472a-941f-4951ffe92228)
     )
@@ -1071,11 +1071,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/78778190-cc70-46a2-847f-8123d8dc0ce1")
     (attr smd)
-    (fp_text reference "CR3" (at 0 -1.3 90) (layer "F.SilkS")
+    (fp_text reference "CR3" (at 0 -1.3 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a348595-9910-4e03-b892-c7d8fb999d1a)
     )
-    (fp_text value "1N914WT" (at 0 1.4 90) (layer "F.Fab")
+    (fp_text value "1N914WT" (at 0 1.4 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff902a10-7951-48bc-befc-6be7b43609f5)
     )
@@ -1120,11 +1120,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/6244b5f4-13c8-4996-a4db-5b90e8d72219")
     (attr smd)
-    (fp_text reference "C28" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C28" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 08351b48-f8e6-4d38-9366-d2373ebfa931)
     )
-    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 49f464ba-c971-4adb-a0b6-9ddeb496c9b8)
     )
@@ -1209,11 +1209,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/079650f6-7b15-4583-a56d-4a0c0a7675a2")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.58 90) (layer "F.SilkS")
+    (fp_text reference "C1" (at 0 -1.58 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e7db3236-5f66-49e7-a713-f4e66308bd3c)
     )
-    (fp_text value "1uF" (at 0 1.58 90) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a4bb9fb-ce18-430d-b100-d8ec5e41b0fe)
     )
@@ -1253,11 +1253,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/f23ad2ed-527f-489a-8d23-715c9f2d2f40")
     (attr smd)
-    (fp_text reference "R20" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R20" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ba41547-f07f-4cc2-bfd0-5bf306cae1a6)
     )
-    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b28f528e-4326-4fc9-ab65-40d705cf2a78)
     )
@@ -1295,11 +1295,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/82f21d9e-232b-4ebe-b0c7-0fba2adc952e")
     (attr smd)
-    (fp_text reference "R8" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R8" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5a64b79c-fb60-4f0c-bc2b-43e5502a5eae)
     )
-    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4f17d134-178f-4d43-b789-af2cad691da0)
     )
@@ -1337,11 +1337,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/81452e56-282c-4cc2-a8fb-dcaceaf5fa31")
     (attr smd)
-    (fp_text reference "C35" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C35" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec3f8bcf-bd4a-46f0-9c3d-da474084d85c)
     )
-    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc1c63fe-bee7-4b07-a128-4ac0c96a7ebf)
     )
@@ -1379,11 +1379,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/260aeea4-c9f2-4b78-85e1-ffdb95b01d27")
     (attr smd)
-    (fp_text reference "R48" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R48" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88343acf-cda8-4337-a14c-f039ea96f1e0)
     )
-    (fp_text value "100K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14516a56-997d-4289-8fb6-d1abfd8d13c9)
     )
@@ -1464,11 +1464,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/158f5a0a-5fc8-48ab-a010-70a210edd7d6")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R4" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55dff8dc-cc80-4f12-bc24-878ed4959d85)
     )
-    (fp_text value "100k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 122a2e8c-970c-4c31-a885-d64942ad51f0)
     )
@@ -1506,11 +1506,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/14efffde-888b-4b19-8916-b196394c5ba0")
     (attr smd)
-    (fp_text reference "R25" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R25" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 829defe8-4d97-443c-aa98-638d93160a5f)
     )
-    (fp_text value "10k" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9cac21be-0279-4fa8-982e-4a1dcbca2d98)
     )
@@ -1548,11 +1548,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/3d73ffe9-38ab-4c08-b03e-b61066fbc10c")
     (attr smd)
-    (fp_text reference "R38" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R38" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5589e4f8-ede5-4150-8373-2978170d0b79)
     )
-    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a70b7528-95ee-471e-aac1-8f07294a675c)
     )
@@ -1588,11 +1588,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/160cc95e-b696-48cc-931e-9ddc7259cfd3")
     (attr through_hole)
-    (fp_text reference "C25" (at -0.26 -2.508 90) (layer "F.SilkS")
+    (fp_text reference "C25" (at -0.26 -2.508 90) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 7ef86b5a-d387-4a93-a62a-8c9dac92ac4b)
     )
-    (fp_text value "3.5-40pF" (at 2.28 2.508 90) (layer "F.Fab")
+    (fp_text value "3.5-40pF" (at 2.28 2.508 90) (layer "F.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp b29d55d6-83a2-404d-887b-f50c2400c355)
     )
@@ -1634,11 +1634,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/a10105e7-9826-4db9-9094-14c100b752a8")
     (attr smd)
-    (fp_text reference "R36" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R36" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 104cc7f7-fa38-4aa1-b268-913ab5b130a1)
     )
-    (fp_text value "3300" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3300" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e049c614-57ea-4ef5-b72e-d71b3a3c0c62)
     )
@@ -1676,11 +1676,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/5e5cf686-af7f-4c02-8ad9-d1f5d7e51b07")
     (attr smd)
-    (fp_text reference "CR1" (at 0 -2.5 90) (layer "F.SilkS")
+    (fp_text reference "CR1" (at 0 -2.5 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46fa2b5f-491e-4770-8284-512c78d46499)
     )
-    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab")
+    (fp_text value "SM4001" (at -0.25 2.5 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 82735e26-189a-455d-a350-953dfdcc1dd1)
     )
@@ -1755,11 +1755,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/5b2fb9fc-00ca-4c47-b696-b8068a21aed2")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C3" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c839692d-96ae-4fd2-a2f3-6db64b1454bd)
     )
-    (fp_text value "100pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "100pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6cafecf0-1cf4-447e-ad48-70073e18f4ba)
     )
@@ -1797,11 +1797,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/bf2680c3-dc21-4aba-b560-c690c5ee8f65")
     (attr smd)
-    (fp_text reference "R11" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R11" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe81c083-b185-4a05-9b68-ce8ad4faf5b7)
     )
-    (fp_text value "10K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 11e0b22a-e181-4dbb-ad35-8e399837fa02)
     )
@@ -1839,11 +1839,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/f06500b5-7a2b-424e-8675-802b1c76d3fb")
     (attr smd)
-    (fp_text reference "C8" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C8" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ee1d8c1-a63b-4524-a0ae-af643ba8c557)
     )
-    (fp_text value "0.01uF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "0.01uF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41c9193d-14ca-4ec2-ac0c-e66e71a555fe)
     )
@@ -1879,11 +1879,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/975af7ae-ce17-4722-a9db-5b00c4d402fd")
     (attr through_hole)
-    (fp_text reference "C7" (at -0.26 -2.508) (layer "F.SilkS")
+    (fp_text reference "C7" (at -0.26 -2.508) (layer "F.SilkS") hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 53409ae1-fad9-4657-94a8-b7c2f5f8faca)
     )
-    (fp_text value "3.5-40pF" (at 2.28 2.508) (layer "F.Fab")
+    (fp_text value "3.5-40pF" (at 2.28 2.508) (layer "F.Fab") hide
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp e26bb4a8-8d86-460a-b2a3-47a73f5c5486)
     )
@@ -1925,11 +1925,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/742e530a-d65d-4405-850d-0b8eb1cae84a")
     (attr smd)
-    (fp_text reference "R1" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R1" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3916161-43ef-499d-8b70-437feea3fab0)
     )
-    (fp_text value "3300" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "3300" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68e1423d-b202-4f48-af87-bd1df1cb5441)
     )
@@ -1967,11 +1967,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/a2bcbcd1-f22b-4a1d-b8f8-299a579d7846")
     (attr through_hole)
-    (fp_text reference "C14_TEST1" (at 1.25 -2.05) (layer "F.SilkS")
+    (fp_text reference "C14_TEST1" (at 1.25 -2.05) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 54b6fab8-5dec-4937-95cc-054bb460e017)
     )
-    (fp_text value "C" (at 1.25 2.05) (layer "F.Fab")
+    (fp_text value "C" (at 1.25 2.05) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4fe93023-6efd-41d8-9b66-7423c6e2e290)
     )
@@ -2009,11 +2009,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/b31914c9-7dc8-4365-9869-87c2de5d4b1e")
     (attr smd)
-    (fp_text reference "C33" (at 0 -1.58) (layer "F.SilkS")
+    (fp_text reference "C33" (at 0 -1.58) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 22655b22-502e-4714-a122-0fce913f9fdc)
     )
-    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ac3a623-6577-45b5-8c75-43eb7704ca04)
     )
@@ -2053,11 +2053,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/919f8699-0b30-4fab-bb9b-160ca8c124aa")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 77e797a2-7964-4873-bbd6-4b01c4df077b)
     )
-    (fp_text value "22k" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "22k" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99ae9442-a03b-47c6-b5fb-1ece6df8615d)
     )
@@ -2095,11 +2095,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/2b9de2f1-84a4-4da4-a0d0-8b53f2c73e25")
     (attr smd)
-    (fp_text reference "R27" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R27" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 43f570f7-7add-450b-b759-6fd6deeb6a65)
     )
-    (fp_text value "4.7M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "4.7M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85f077de-c4cf-4983-a740-c94dcc7e5501)
     )
@@ -2137,11 +2137,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/68dac23f-c895-4835-b2ee-6f5d960f7153")
     (attr smd)
-    (fp_text reference "C27" (at 0 -2.65 90) (layer "F.SilkS")
+    (fp_text reference "C27" (at 0 -2.65 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e3b230b4-4467-4992-babf-c6faaf9cbfe4)
     )
-    (fp_text value "330pF" (at 0 2.65 90) (layer "F.Fab")
+    (fp_text value "330pF" (at 0 2.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1dcadc4b-30dd-458e-be80-94c906675601)
     )
@@ -2179,11 +2179,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/614c37a4-4c81-4a2a-9721-e261a038ed82")
     (attr smd)
-    (fp_text reference "C16" (at 0 -2.3 90) (layer "F.SilkS")
+    (fp_text reference "C16" (at 0 -2.3 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 812f31c1-b2fa-45a6-be19-ac091702e137)
     )
-    (fp_text value "150pF" (at 0 2.3 90) (layer "F.Fab")
+    (fp_text value "150pF" (at 0 2.3 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f879d2c-fc34-4ac3-8033-74c722e2fd1a)
     )
@@ -2221,11 +2221,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/3b26c70e-e57a-4154-a99a-8fc88605548b")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1e9f67d-e7ba-4744-9a71-4dbd4bda10be)
     )
-    (fp_text value "1000" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1000" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4882e53d-81e6-49cf-8965-03279a6d05b7)
     )
@@ -2263,11 +2263,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/f161a662-2bc3-403d-8a22-46a5079a5855")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f691d856-ec5e-4271-bf1c-17ce8b10d849)
     )
-    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6bacdeb-255e-4cc8-a9c3-26c9468ceba1)
     )
@@ -2348,11 +2348,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/e9c3d29e-f8d2-4a2e-94d3-0b19f5431198")
     (attr smd)
-    (fp_text reference "R53" (at 0 -1.43 -270) (layer "F.SilkS")
+    (fp_text reference "R53" (at 0 -1.43 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 096b3fb5-cd17-474a-b2d7-6924221d0e92)
     )
-    (fp_text value "10" (at 0 1.43 -270) (layer "F.Fab")
+    (fp_text value "10" (at 0 1.43 -270) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cea460c8-2513-403d-b29f-6f8b7a6eed89)
     )
@@ -2464,11 +2464,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/f878780c-acae-4895-ad85-e5e4a1489fa8")
     (attr smd)
-    (fp_text reference "R47" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R47" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9c558fe-e4be-4028-85fa-44574e007f7e)
     )
-    (fp_text value "33" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "33" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7b8e880-a128-4e75-8315-f0e6c1ee171e)
     )
@@ -2506,11 +2506,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/0af1fcbc-da00-457a-813a-6c7140d776c0")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp df0eda75-4a32-434e-bc3c-22c4e55c5f97)
     )
-    (fp_text value "220K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "220K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a8163850-9fd9-4c50-ac9f-9144ce7fba05)
     )
@@ -2595,11 +2595,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/26e10a90-b572-42eb-9077-5366910993f4")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R17" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 36372a31-bbf9-4964-817d-4cb290e4c8cd)
     )
-    (fp_text value "10K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eab49d72-26bb-44ca-8d4d-54f67293453d)
     )
@@ -2674,11 +2674,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/3d1e3e85-1167-4989-99ec-8b80682e3c6a")
     (attr smd)
-    (fp_text reference "C38" (at 0 -1.75 90) (layer "F.SilkS")
+    (fp_text reference "C38" (at 0 -1.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc5e698c-8e82-4243-8300-6bf39de35f1f)
     )
-    (fp_text value "10uF" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 518f758f-52ff-4370-a4f5-6c6128ef019b)
     )
@@ -2755,11 +2755,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/9298e2c5-a9fa-48ae-8465-7c73eef5d7bb")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 12de7104-31ff-4a4a-9bc9-4a6faaaa38bf)
     )
-    (fp_text value "2200" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ec1005bb-1964-4add-9d5b-f4d312b83240)
     )
@@ -2797,11 +2797,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/2d263d36-7890-43e4-a741-55e982ac3bcc")
     (attr smd)
-    (fp_text reference "C6" (at 0 -2.3) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -2.3) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 110842ca-e23d-4077-9119-188f71d7b8d0)
     )
-    (fp_text value "150pF" (at 0 2.3) (layer "F.Fab")
+    (fp_text value "150pF" (at 0 2.3) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14b6ae23-ca3c-4dc0-9217-32438a94f4d3)
     )
@@ -2839,11 +2839,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/54a1350d-a3aa-4fde-97a6-663ecdf6317e")
     (attr smd)
-    (fp_text reference "C13" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C13" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4107e967-dcd0-443c-82de-d3e6a8784d2c)
     )
-    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9b0f62b6-5931-442b-8299-5f36662da96a)
     )
@@ -2881,11 +2881,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/e9aeffbe-7d67-45ba-b60e-0085fc8f1c23")
     (attr smd)
-    (fp_text reference "CR5" (at 0 -2.5) (layer "F.SilkS")
+    (fp_text reference "CR5" (at 0 -2.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7ebd6115-1ac5-4db7-984a-2633a59ef020)
     )
-    (fp_text value "SM4001" (at -0.25 2.5) (layer "F.Fab")
+    (fp_text value "SM4001" (at -0.25 2.5) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d131b021-60e0-4ed4-baa6-73949c334990)
     )
@@ -2930,11 +2930,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/c1525a96-1d8e-4b0b-99ca-15349ead96a8")
     (attr smd)
-    (fp_text reference "C21" (at 0 -2.65 90) (layer "F.SilkS")
+    (fp_text reference "C21" (at 0 -2.65 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85841097-3385-49fe-94ca-a3670a83ca37)
     )
-    (fp_text value "330pF" (at 0 2.65 90) (layer "F.Fab")
+    (fp_text value "330pF" (at 0 2.65 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c3679863-e98b-49f5-a062-b15f9c1431e3)
     )
@@ -2972,11 +2972,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/376990fc-b946-4876-8004-31da2301d76a")
     (attr smd)
-    (fp_text reference "R31" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R31" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19e82a21-949c-457f-b656-6a6d577fa495)
     )
-    (fp_text value "2200" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10b9afab-566c-48ee-8d19-2e0b2dc4747d)
     )
@@ -3061,11 +3061,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/c4ae3adc-d16e-4b04-933a-177aa11c44eb")
     (attr smd)
-    (fp_text reference "R57" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R57" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad65a083-b600-4e2c-b529-6386d91be5e3)
     )
-    (fp_text value "3920" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "3920" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4bf8d6e9-3741-48da-b081-76e68a3c681c)
     )
@@ -3160,11 +3160,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/6c5bb017-914d-4c91-98dd-879d88b9ed77")
     (attr smd)
-    (fp_text reference "C37" (at 0 -1.75) (layer "F.SilkS")
+    (fp_text reference "C37" (at 0 -1.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c29d54b-65e8-4540-a223-ace81ebfc75b)
     )
-    (fp_text value "10uF" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c90c29dc-01e9-44ac-8f35-697816841e31)
     )
@@ -3204,11 +3204,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/190b135f-8da2-40ab-9080-bd9922010fad")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b48b5c7d-1176-4e39-82c7-3b51ed40ffbe)
     )
-    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 48681815-1ea6-4ad2-825e-1d424c3bf021)
     )
@@ -3246,11 +3246,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/be76e286-98be-495c-a3d4-ba52165bf4c4")
     (attr smd)
-    (fp_text reference "R22" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R22" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 592ce109-734a-4f75-aa6d-0a39f3764598)
     )
-    (fp_text value "22K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "22K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a82efd82-468f-4b1b-a810-7f6da1afd503)
     )
@@ -3345,11 +3345,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/81cb12af-aa30-4829-9a25-253cebc761e2")
     (attr smd)
-    (fp_text reference "R58" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R58" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 615b5f60-7110-4193-aa40-c37a99789aa5)
     )
-    (fp_text value "1000" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "1000" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0555e18e-0060-4e33-ae36-c4c50ded312f)
     )
@@ -3387,11 +3387,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/da0e5441-d4ae-425e-9155-9583cf09605b")
     (attr smd)
-    (fp_text reference "C20" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C20" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2fadf4c1-37e5-40d1-82fd-19eae018277e)
     )
-    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ea4f766a-605d-46c5-b03b-504cd8776fc7)
     )
@@ -3476,11 +3476,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/d50dce5a-6d9b-49e2-b868-88e66b7aab69")
     (attr smd)
-    (fp_text reference "R30" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R30" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c269eab-6884-4d3d-9995-fc4b754ae7b1)
     )
-    (fp_text value "2200" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 049fbe5b-ef7a-4e38-812c-b6273e0c482c)
     )
@@ -3622,11 +3622,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/846f0cca-6cc4-4730-97f4-52bffa7662a5")
     (attr smd)
-    (fp_text reference "R40" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R40" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b188699c-b213-4462-85f6-ddd1e220dcc5)
     )
-    (fp_text value "1M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f14e07c1-ba56-4c96-b96c-958226863ca0)
     )
@@ -3711,11 +3711,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/da164bfb-e4f7-4fc2-a8e5-8baac0c90a7e")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.75) (layer "F.SilkS")
+    (fp_text reference "C10" (at 0 -1.75) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15e4fdbf-717a-43e7-8af0-d68fbce04f09)
     )
-    (fp_text value "10uF" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aa5dd80b-23e0-459c-b188-0134e8a2300c)
     )
@@ -3889,11 +3889,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/677a4dab-9fcb-43d9-a005-76f5e7b4adad")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R10" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a25cce62-9f80-4804-8d71-a939c892b37a)
     )
-    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 603cf24e-d7f5-47f4-8e25-45c626eaccc2)
     )
@@ -3978,11 +3978,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/53eea53a-2147-486b-af76-2900ee6ff470")
     (attr smd)
-    (fp_text reference "C36" (at 0 -1.48 90) (layer "F.SilkS")
+    (fp_text reference "C36" (at 0 -1.48 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a0fa464b-28e4-416f-be27-001290e0c600)
     )
-    (fp_text value "0.47uF" (at 0 1.48 90) (layer "F.Fab")
+    (fp_text value "0.47uF" (at 0 1.48 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp af092ce3-b83a-401e-8661-a4737d2c5be0)
     )
@@ -4065,11 +4065,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/5536ddac-557d-41bc-a92f-036fe0b25759")
     (attr smd)
-    (fp_text reference "C22" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C22" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f933263-499e-400f-9248-ab124322f75d)
     )
-    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4559656d-00bb-442f-8d15-1a7a9056f7bc)
     )
@@ -4144,11 +4144,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/3fd09baa-6f0f-4028-ae74-24d116cd5928")
     (attr smd)
-    (fp_text reference "R49" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R49" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c082a0f6-a2a3-48a3-9968-47eab8b90e48)
     )
-    (fp_text value "22K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "22K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6555ecdf-d0e0-41f1-8a3d-908353ab98c0)
     )
@@ -4186,11 +4186,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/ba3a636b-62a6-4d63-9d6e-3f7ddae933bc")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R6" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 772bf8c3-8ab4-4b3e-aed0-020773f2d49b)
     )
-    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1522e3d-88e0-4c7c-b64e-7ef776badfd2)
     )
@@ -4228,11 +4228,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/ff7ed303-7a99-4b0e-91c5-45a8e7f21631")
     (attr smd)
-    (fp_text reference "R34" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R34" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9dbf8c0-f30b-466d-8a7a-6d2bfebe5770)
     )
-    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2.7M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 776dd560-0f45-4384-9139-02f6f936b6ad)
     )
@@ -4394,11 +4394,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/796b5feb-1ee5-4ab5-a74e-b389321b588d")
     (attr smd)
-    (fp_text reference "R52" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R52" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 405ec5d1-50fa-4e31-900c-ecf8d1ba8ded)
     )
-    (fp_text value "22K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "22K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0495ad1e-b422-4153-9a88-63cd79b490db)
     )
@@ -4436,11 +4436,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/e764cc54-9d27-4ea8-aae2-33437b344720")
     (attr smd)
-    (fp_text reference "R51" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R51" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 47e07b6b-3955-4a6f-9cae-5eeef07ee573)
     )
-    (fp_text value "4700" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "4700" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05329e3b-2bbb-4002-9ffb-0ce85c448dc1)
     )
@@ -4478,11 +4478,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/3ae0cecc-f952-4f6e-a60e-a53126f20199")
     (attr smd)
-    (fp_text reference "R55" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R55" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f6535c87-ed8b-43da-b41e-76483a68f4ed)
     )
-    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bf065f6e-9ada-4c7b-9c4b-81c49db1c7b5)
     )
@@ -4520,11 +4520,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/e78d1b5a-3bab-4f6f-b290-ad4c7e138507")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R7" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34a580b7-ff28-4ab8-b748-383cf79ce8fb)
     )
-    (fp_text value "2200" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d34dd357-e132-496a-9180-9b8a43c038db)
     )
@@ -4562,11 +4562,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/eb89d920-09ce-4054-93e7-fd9e9b949af5")
     (attr smd)
-    (fp_text reference "C24" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C24" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 989ee854-c09f-47b9-890c-eb45535f95e3)
     )
-    (fp_text value "C_Mica" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C_Mica" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f2f49b42-038c-4a46-80b8-8684b85df3ba)
     )
@@ -4604,11 +4604,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/7ebd5cd4-c266-44c1-8805-d7d567675f4c")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d8ffc5b6-f693-4cee-8f5f-fe42aa0c44cd)
     )
-    (fp_text value "150K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "150K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8e4ef580-2f75-4901-bf01-f8df58548852)
     )
@@ -4693,11 +4693,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/a32f37c5-d7d0-48bf-92f5-d71de1b055ae")
     (attr smd)
-    (fp_text reference "R9" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R9" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c70c2f1a-0efe-438c-847d-851d52f17f78)
     )
-    (fp_text value "1M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05af5bad-7ffd-408a-820b-088722377055)
     )
@@ -4792,11 +4792,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/37255f04-0863-4669-af0c-a624191d34d9")
     (attr smd)
-    (fp_text reference "R32" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R32" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be0a7a68-80d5-411b-848b-850132891855)
     )
-    (fp_text value "33K" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "33K" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39b41f74-1b54-419a-b92a-98258f9f0b71)
     )
@@ -4834,11 +4834,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/146c92fc-9efb-41dd-a5fd-a09ade611e76")
     (attr smd)
-    (fp_text reference "R23" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R23" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a89a1df-246b-47a5-aea5-6f09ee811664)
     )
-    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83fa1003-8bb5-488c-9cce-d94c5abdcc08)
     )
@@ -4876,11 +4876,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/1ccc0080-5587-4ca1-ab95-ef20ada53d94")
     (attr smd)
-    (fp_text reference "R26" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R26" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14791e30-ab6f-45ac-9b35-36093db663a2)
     )
-    (fp_text value "68K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "68K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5cab78fb-afa6-46c6-bc2c-5b6665eb0679)
     )
@@ -4918,11 +4918,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/f11c6444-21d3-45ea-9638-580c8cb45cd8")
     (attr smd)
-    (fp_text reference "R41" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R41" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ab087b6-8242-4ced-b542-e250e29ad59b)
     )
-    (fp_text value "100K" (at 0 -0.57 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 -0.57 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a7c20e75-1e24-49f1-a173-f2b0df346913)
     )
@@ -4960,11 +4960,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/7ffae109-be0f-400b-9470-359eb0e86e06")
     (attr smd)
-    (fp_text reference "R54" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R54" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 97f355d8-6d6e-4760-b9a1-76913cf4b731)
     )
-    (fp_text value "10" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1b844202-eb76-4c4c-9a51-bd815665ebc2)
     )
@@ -5086,11 +5086,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/4c7c7d17-b00f-44b1-a267-a406eac32f69")
     (attr smd)
-    (fp_text reference "R44" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R44" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5f237e46-f951-4bbc-9cad-8576380f42e2)
     )
-    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce0f77c7-38fb-403c-a873-9051a8a436b1)
     )
@@ -5275,11 +5275,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/a02830ec-fb88-4e52-a6d3-e64be27b9be6")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ae24be4-ccf1-4611-9706-fb8e6058a855)
     )
-    (fp_text value "10k" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10k" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2b67799f-6fb8-4a0c-ae85-b010fa159e5b)
     )
@@ -5317,11 +5317,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/fbf5efc5-abef-4efe-98db-cf80db27269d")
     (attr smd)
-    (fp_text reference "C40" (at 0 -1.75 90) (layer "F.SilkS")
+    (fp_text reference "C40" (at 0 -1.75 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8ce19c1f-7991-4ad5-aa15-f5d9a1f72059)
     )
-    (fp_text value "10uF" (at 0 1.75 90) (layer "F.Fab")
+    (fp_text value "10uF" (at 0 1.75 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8c4b4008-b1c5-4296-97ee-ad1dac0723aa)
     )
@@ -5361,11 +5361,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/4f7069af-a840-42d6-8bcc-204898519093")
     (attr smd)
-    (fp_text reference "R43" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R43" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6b774e0b-7b5d-4cd8-873b-223909a1ed40)
     )
-    (fp_text value "680" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "680" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74a7e00b-db5d-40a0-827a-4d7899c8f3b5)
     )
@@ -5403,11 +5403,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/5b8751a6-97ca-4414-a964-87f3ccd00787")
     (attr smd)
-    (fp_text reference "R29" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R29" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0c168e5c-cfc5-4851-9021-0f2cde0b7c73)
     )
-    (fp_text value "2200" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3171bf77-35f1-4ea7-8390-d2db921a1fed)
     )
@@ -5445,11 +5445,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/fafc2b5c-7643-4a90-a00e-195cc53cf8c5")
     (attr smd)
-    (fp_text reference "R35" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R35" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ecee0aae-1802-401a-8c47-39cff1ded618)
     )
-    (fp_text value "22k" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "22k" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e9b2a160-9701-4161-b61a-6fbbe27d2281)
     )
@@ -5487,11 +5487,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/2d5c1ec5-5218-405b-a95a-5f8eba7ff0f7")
     (attr smd)
-    (fp_text reference "C31" (at 0 -1.58) (layer "F.SilkS")
+    (fp_text reference "C31" (at 0 -1.58) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 84b9e68b-d309-4cef-b3e7-85fbbfc5daf8)
     )
-    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f63fe1df-d4fd-4e45-b01b-2c1d4c382484)
     )
@@ -5605,11 +5605,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/7c3cacf6-3964-446c-ac71-d068d440e4c7")
     (attr smd)
-    (fp_text reference "C14" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C14" (at 0 -1.68) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c67b2ddc-6c20-465a-88ba-3bf128ae8009)
     )
-    (fp_text value "C_Mica" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "C_Mica" (at 0 1.68) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 397900d0-525c-4774-9c79-fc24a55667e0)
     )
@@ -5647,11 +5647,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/157507c8-ab04-486d-8e74-a9bbc0de5f1f")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b1403bf5-87b9-4473-8395-2016a23d7218)
     )
-    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "0.01uF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp de7994b8-4f71-4154-897d-9723cf4f83e2)
     )
@@ -5689,11 +5689,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/0ffd4d49-41eb-47fb-967e-798711547171")
     (attr smd)
-    (fp_text reference "R19" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R19" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 030e21de-58cf-4f56-9d96-a27a810e78f6)
     )
-    (fp_text value "2200" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "2200" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 93ff191a-1d48-4c42-aeb4-9670d4e720f9)
     )
@@ -5829,11 +5829,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/ec2a82d0-71f2-41c9-8f56-11223657db4e")
     (attr smd)
-    (fp_text reference "R50" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R50" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 04d97120-e638-4623-9870-db7be3ba1ab0)
     )
-    (fp_text value "4700" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "4700" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d89a93cc-7590-4ceb-91c6-1a3541c7b127)
     )
@@ -5871,11 +5871,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/d8db22b5-f129-40f0-8f10-ceb9962f7e48")
     (attr smd)
-    (fp_text reference "C17" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C17" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce0d03fe-4714-4e2b-890f-3d624d9770ed)
     )
-    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb3998d0-c4b2-4beb-8fe6-d618c48d8488)
     )
@@ -5913,11 +5913,11 @@
     (property "Sheetname" "Mixer")
     (path "/50f38226-9983-4cce-802f-935330019731/ab074502-034c-4575-83e7-145b95e985de")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C9" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1f0101c8-33a3-4284-b58a-32f5deed495d)
     )
-    (fp_text value "0.01uF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "0.01uF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bd04b73d-b1be-4ad8-8318-be8f005ce792)
     )
@@ -5955,11 +5955,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/57275a8c-161b-4f37-86d5-6a44c11f83c9")
     (attr smd)
-    (fp_text reference "R45" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R45" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 07bf4d3e-fc50-4c5b-a60f-5ed3ac252d6f)
     )
-    (fp_text value "33K" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "33K" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 06e66241-e473-4052-8d3a-390dff6732bc)
     )
@@ -6034,11 +6034,11 @@
     (property "Sheetname" "AmpVReg")
     (path "/f332b456-7afa-40b4-9c1a-c302cd7face4/87c26c74-0244-4139-9938-e7187ed920f3")
     (attr smd)
-    (fp_text reference "R42" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R42" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8aafba57-bc18-44cd-88c7-5c7b73a79b65)
     )
-    (fp_text value "1M" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0754a798-4220-4fd6-a5b4-7acdaf92a9cc)
     )
@@ -6076,11 +6076,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/1999b97e-5932-4d35-990e-183a3cd16e39")
     (attr smd)
-    (fp_text reference "R33" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R33" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e97d5d83-080a-46f9-94d5-b09ac6c6bf02)
     )
-    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee38b5a7-0d0b-4ff7-889f-3c6d390c9be2)
     )
@@ -6118,11 +6118,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/23af6981-f920-4aac-9cc6-05c8c424434f")
     (attr smd)
-    (fp_text reference "R39" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R39" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b59f267a-a76c-49e3-bcfb-5da42b6f3c2a)
     )
-    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "1M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2dca9218-fefb-44eb-b5ee-7f42390cdd6e)
     )
@@ -6160,11 +6160,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/b4e0f252-46d3-4dcc-a1ee-678d5e80fd87")
     (attr smd)
-    (fp_text reference "C15" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C15" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ca522dbb-0c31-4526-bb0a-c0175eab82d8)
     )
-    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 86b47bfd-cd54-426f-b423-55313620c459)
     )
@@ -6292,11 +6292,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/4fed0823-d822-4c79-a47a-c4828512b269")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C5" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c968303d-4882-4be8-9935-79a5af9b40c3)
     )
-    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "10pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 81d76da8-1b93-489c-8544-5cffef049b78)
     )
@@ -6334,11 +6334,11 @@
     (property "Sheetname" "Volume Processor")
     (path "/76f6f0b3-8b63-456d-897f-67be02516869/86623366-626f-4b05-bc8d-f56d3b417913")
     (attr smd)
-    (fp_text reference "C34" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C34" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 690b0678-a240-4e8b-9a2d-3bb9f12430f6)
     )
-    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "0.1uF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f936450-fee3-4e5f-9209-308ebead7851)
     )
@@ -6376,11 +6376,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/72756249-a6f1-48ec-a3ac-ae419cf7f47c")
     (attr smd)
-    (fp_text reference "C29" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C29" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ed5ca1ba-6e0c-4e42-b535-d90f22c2d577)
     )
-    (fp_text value "100pF" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "100pF" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ffdaa43-a596-46ae-b196-32d1fbd22ebe)
     )
@@ -6418,11 +6418,11 @@
     (property "Sheetname" "Variable Oscillator")
     (path "/303cbd7d-3251-49a5-b98e-2cfab48c439f/a1d9c8c9-ab74-4869-a0b5-e16074d59e99")
     (attr smd)
-    (fp_text reference "C18" (at 0 -1.58) (layer "F.SilkS")
+    (fp_text reference "C18" (at 0 -1.58) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9cd7e63d-a097-41de-b751-313357042ac5)
     )
-    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3fefa082-4dfb-44d9-ad86-b8d59375d723)
     )
@@ -6462,11 +6462,11 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/aeee6ca8-3ae8-482c-8761-3d58b98098af")
     (attr smd)
-    (fp_text reference "C30" (at 0 -1.58) (layer "F.SilkS")
+    (fp_text reference "C30" (at 0 -1.58) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3ca97a35-0b7c-4f96-8dd5-55bca14f6f04)
     )
-    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab")
+    (fp_text value "1uF" (at 0 1.58) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd1270d8-2d63-48df-8b19-f0321c618342)
     )
@@ -6506,11 +6506,11 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/b820f8ba-2cb3-4eae-ba84-aa50cc8883a6")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 96f3a1a1-9db1-45c3-8d73-9324524c5eb4)
     )
-    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "4.7M" (at 0 1.43 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8f6b56c8-503a-49b7-92a6-cbd39aeaf61c)
     )
@@ -6548,7 +6548,7 @@
     (property "Sheetname" "Volume Oscillator")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/09667908-d561-4b03-9104-1ddf9a261db6")
     (attr through_hole)
-    (fp_text reference "RV1" (at 0 -3 -270) (layer "B.SilkS")
+    (fp_text reference "RV1" (at 0 -3 -270) (layer "B.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 26ecbf35-f775-4c22-b80f-0671bfdd7ada)
     )
@@ -6609,7 +6609,7 @@
     (property "Sheetname" "Pitch Reference Oscillator")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/642f87a0-49fc-436d-bdb1-08ab669c2fc8")
     (attr through_hole)
-    (fp_text reference "RV2" (at 0 -3) (layer "B.SilkS")
+    (fp_text reference "RV2" (at 0 -3) (layer "B.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
       (tstamp 8d0f8046-bbcd-46b4-8297-0b4040546475)
     )
@@ -7246,7 +7246,7 @@
   (arc (start 169.560355 64.65) (mid 169.527691 64.656497) (end 169.5 64.675) (width 0.4) (layer "F.Cu") (net 20) (tstamp b5348153-3fed-49d2-acb3-2b8bce9af50d))
   (arc (start 175.543807 66.5) (mid 173.355315 66.935318) (end 171.5 68.175) (width 0.6) (layer "F.Cu") (net 20) (tstamp ccf4d712-f2bc-4be4-9c49-da086f2fc76d))
   (segment (start 203.5 90.725) (end 203.5 88.775) (width 0.3) (layer "F.Cu") (net 21) (tstamp 1fb8768a-3282-4e5e-a7f9-a1f54c5d6a83))
-  (segment (start 211.856776 96.6625) (end 209.3 96.6625) (width 1) (layer "F.Cu") (net 21) (tstamp 209bb9ea-0771-4e9a-9dfc-92f51259d018))
+  (segment (start 214.559682 96.6625) (end 209.3 96.6625) (width 1) (layer "F.Cu") (net 21) (tstamp 209bb9ea-0771-4e9a-9dfc-92f51259d018))
   (segment (start 206.205 98.75) (end 207.896447 98.75) (width 1) (layer "F.Cu") (net 21) (tstamp 45a1323c-e864-487e-93de-813ad10c1e42))
   (segment (start 208.5 98.5) (end 208.566376 98.433624) (width 1) (layer "F.Cu") (net 21) (tstamp 7da662d0-74a0-494b-9044-580eb31a50bc))
   (segment (start 205.75 103.4) (end 208.2625 103.4) (width 0.8) (layer "F.Cu") (net 21) (tstamp ac1b971c-5fe2-4cae-b9f8-0333774aec05))
@@ -7254,14 +7254,13 @@
   (via (at 203.5 89.8755) (size 0.55) (drill 0.254) (layers "F.Cu" "B.Cu") (net 21) (tstamp 00f6aa76-16ae-44d3-8286-3e67de2ade6c))
   (via (at 208 92) (size 0.55) (drill 0.254) (layers "F.Cu" "B.Cu") (net 21) (tstamp 37143569-3676-403d-bf64-4a0e3a5d8c3f))
   (arc (start 208.566376 98.433624) (mid 209.109337 97.621025) (end 209.3 96.6625) (width 1) (layer "F.Cu") (net 21) (tstamp 1cd6cf00-32c1-41d8-8921-6523cf4b948a))
-  (arc (start 217.5 99) (mid 214.910867 97.269996) (end 211.856776 96.6625) (width 1) (layer "F.Cu") (net 21) (tstamp 2cde2a5c-5bcc-42b6-a694-32a00e867668))
+  (arc (start 215.588757 97.088757) (mid 215.116613 96.773281) (end 214.559682 96.6625) (width 1) (layer "F.Cu") (net 21) (tstamp 2cde2a5c-5bcc-42b6-a694-32a00e867668))
   (arc (start 209.3 95.138477) (mid 208.962141 93.439945) (end 208 92) (width 0.3) (layer "F.Cu") (net 21) (tstamp 8b2fffd1-1c36-4e4b-83c0-bc5a58d0c2ae))
   (arc (start 207.896447 98.75) (mid 208.223088 98.685027) (end 208.5 98.5) (width 1) (layer "F.Cu") (net 21) (tstamp b9cdb619-1380-411b-af53-e6ea217ce976))
   (segment (start 207.548959 101.601041) (end 205.75 103.4) (width 1) (layer "B.Cu") (net 21) (tstamp 11e99358-8154-41b5-ac1b-be452328f4bd))
-  (segment (start 212.671573 101) (end 209 101) (width 1) (layer "B.Cu") (net 21) (tstamp 1b919030-5453-4293-be92-92a05b77c542))
+  (segment (start 214.359525 101) (end 209 101) (width 1) (layer "B.Cu") (net 21) (tstamp 1b919030-5453-4293-be92-92a05b77c542))
   (segment (start 208 92) (end 206.5 90.5) (width 0.3) (layer "B.Cu") (net 21) (tstamp 7f3938e0-8a54-4cac-be5e-036158e3f4a5))
   (segment (start 204.992324 89.8755) (end 203.5 89.8755) (width 0.3) (layer "B.Cu") (net 21) (tstamp af9b9e16-1409-4812-8a62-41067a8dbf8f))
-  (arc (start 217.5 99) (mid 215.284699 100.480217) (end 212.671573 101) (width 1) (layer "B.Cu") (net 21) (tstamp 4472590c-2412-438a-86d6-2cd31f06b9dd))
   (arc (start 206.5 90.5) (mid 205.808273 90.037802) (end 204.992324 89.8755) (width 0.3) (layer "B.Cu") (net 21) (tstamp bf049fcf-a9f3-4626-9b63-e6fe7fac33aa))
   (arc (start 209 101) (mid 208.214702 101.156205) (end 207.548959 101.601041) (width 1) (layer "B.Cu") (net 21) (tstamp d3cd083e-8f08-4332-9bf3-5d0355faa68f))
   (segment (start 201 92.5) (end 201 90.554226) (width 0.4) (layer "F.Cu") (net 22) (tstamp 122b49a5-27a5-40a9-a5e9-b131a50c260b))
@@ -7492,10 +7491,10 @@
   (via (at 202 63.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 42) (tstamp a3471870-44bd-4042-a8e5-2215cd66c584))
   (arc (start 201 65.65) (mid 201.211337 64.587538) (end 201.813173 63.686827) (width 1) (layer "F.Cu") (net 42) (tstamp 169e0b5a-811a-4216-81f6-b607215a7358))
   (arc (start 204.577513 63.5) (mid 204.806161 63.545481) (end 205 63.675) (width 0.6) (layer "F.Cu") (net 42) (tstamp 928d6194-1a99-41b8-a8db-6f85abf462a7))
-  (segment (start 217.7 68.7) (end 217.7 60.482842) (width 1) (layer "B.Cu") (net 42) (tstamp 23a78c3e-a152-4b80-944a-4d2141f67833))
-  (segment (start 210.449747 60) (end 217.5 60) (width 1) (layer "B.Cu") (net 42) (tstamp c28010ed-bd17-46cf-9203-efddfa28a043))
-  (arc (start 202 63.5) (mid 205.876776 60.90962) (end 210.449747 60) (width 1) (layer "B.Cu") (net 42) (tstamp 2a419ba4-0d48-4b32-ad73-531ee1612fdf))
-  (arc (start 217.7 60.482842) (mid 217.648022 60.22153) (end 217.5 60) (width 1) (layer "B.Cu") (net 42) (tstamp c9fcd3c7-94bf-4f54-8d98-7932868d5295))
+  (segment (start 210.449747 60) (end 214.275 60) (width 1) (layer "B.Cu") (net 42) (tstamp a2b212ef-4667-49bd-92b2-24ff12dc5aef))
+  (segment (start 217.7 68.7) (end 217.7 63.707842) (width 1) (layer "B.Cu") (net 42) (tstamp be3c80a9-5c6f-4874-8aa2-ea3776486c84))
+  (arc (start 202 63.5) (mid 205.876777 60.909626) (end 210.449747 60) (width 1) (layer "B.Cu") (net 42) (tstamp 475e5d54-52f5-49a5-b40e-1f213ab0c246))
+  (arc (start 217.7 63.707842) (mid 217.648022 63.44653) (end 217.5 63.225) (width 1) (layer "B.Cu") (net 42) (tstamp 7751c9af-4cf2-4de3-a1a0-be7da4036006))
   (segment (start 157.309999 96.6) (end 157.309999 96.562617) (width 1) (layer "F.Cu") (net 43) (tstamp 35337183-a6b7-4d46-b41a-16212d05e745))
   (segment (start 153 93.575001) (end 155.577511 93.575001) (width 1) (layer "F.Cu") (net 43) (tstamp c473f747-b09e-470e-acbb-f7ff893a9e93))
   (arc (start 157.309999 96.562617) (mid 156.969541 94.851021) (end 156 93.4) (width 1) (layer "F.Cu") (net 43) (tstamp 4759614c-d4cc-4146-a6c9-ae80fd93a8eb))

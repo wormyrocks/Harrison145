@@ -1,0 +1,57 @@
+1,7,"C1, C2, C18, C30, C31, C33, C41",1uF,Device:C_Polarized_Small_US,Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder,74-TMCP1E105KTRF
+2,2,"C3, C29",100pF,Device:C_Polarized_Small_US,Capacitor_SMD:C_0603_1608Metric,80-C0603C101K8RAUTO
+3,8,"C4, C5, C15, C17, C19, C20, C26, C28",10pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,80-C0603C100K3RAUTO
+4,2,"C6, C16",150pF,Device:C,Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,598-MC12FA151J-F
+5,2,"C7, C25",3.5-40pF,Device:C_Variable,Theremin:CAPV_JZ400,768-JZ400
+6,5,"C8, C9, C11, C12, C13",0.01uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,80-C0603C103K2REAUTO
+7,4,"C10, C37, C38, C40",10uF,Device:C_Polarized_Small_US,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,80-T489A106K10ATA2K2
+8,2,"C14, C24",C_Mica,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,5982-08-100V5.0-F
+9,2,"C14_TEST1, C24_TEST1",C,Device:C,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,598-MC12CD100D-TF
+10,2,"C21, C27",330pF,Device:C,Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder,598-MC18FD331J-TF
+11,4,"C22, C23, C34, C35",0.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,80-C603C104K5RAC3121
+12,2,"C32, C39",220uF,Device:C_Polarized_Small_US,Theremin:CAP_EEF-KX0E221RE,667-EEF-KX0E221RE
+13,1,C36,0.47uF,Device:C_Polarized_Small_US,Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J,581-TACL474K010X
+14,5,"CR1, CR2, CR4, CR5, CR6",SM4001,Diode:SM4001,Diode_SMD:D_MELF,637-SM4001
+15,1,CR3,1N914WT,Diode:1N914WT,Diode_SMD:D_SOD-523,512-1N914BWT
+16,1,D1,LED_GRN,Device:LED_Small,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,710-150060GS75000
+17,1,J1,PITCH ANTENNA,Connector_Generic:Conn_01x01,MountingHole:MountingHole_4.3mm_M4_Pad_Via,~
+18,1,J2,VOLUME ANTENNA,Connector_Generic:Conn_01x01,MountingHole:MountingHole_4.3mm_M4_Pad_Via,~
+19,1,J3,GROUND POINT,Connector_Generic:Conn_01x01,MountingHole:MountingHole_4.3mm_M4_Pad_Via,~
+20,1,J4,LINE OUT,Connector_Generic:Conn_01x01,MountingHole:MountingHole_4.3mm_M4_Pad_Via,~
+21,1,J5,9V IN,Connector_Generic:Conn_01x01,MountingHole:MountingHole_4.3mm_M4_Pad_Via,~
+22,1,JP1,A,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+23,1,JP2,B,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+24,1,JP3,C,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+25,1,JP4,D,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+26,1,JP5,E,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+27,1,JP6,F,Jumper:SolderJumper_2_Open,Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,~
+28,4,"L1, L2, L3, L4",1mH,Device:L,Theremin:Delevan_5022R,807-5022R-102J
+29,7,"Q1, Q2, Q6, Q7, Q11, Q12, Q16",MMBT3906,Transistor_BJT:MMBT3906,Package_TO_SOT_SMD:SOT-23,726-MMBT3906LT1
+30,5,"Q3, Q5, Q8, Q10, Q13",SMP5484,Device:Q_NJFET_SDG,Package_TO_SOT_SMD:SOT-23,106-SMP5484
+31,4,"Q4, Q9, Q14, Q15",MMBT3904,Transistor_BJT:MMBT3904,Package_TO_SOT_SMD:SOT-23,726-MMBT3904LT1
+32,3,"R1, R24, R36",3300,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-103K3L
+33,2,"R2, R35",22k,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-0722KL
+34,3,"R3, R25, R37",10k,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-0710KL
+35,1,R4,100k,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-07100KL
+36,4,"R5, R20, R27, R33",4.7M,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-AC0603FR-074M7L
+37,4,"R6, R21, R28, R34",2.7M,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-072M7L
+38,7,"R7, R14, R15, R19, R29, R30, R31",2200,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-102K2L
+39,6,"R8, R9, R10, R39, R40, R42",1M,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-AC0603FR-071ML
+40,2,"R11, R17",10K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-0710KL
+41,1,R12,150K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-13150KL
+42,7,"R13, R23, R38, R41, R44, R48, R55",100K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-07100KL
+43,2,"R16, R58",1000,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-071KP
+44,1,R18,220K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-13220KL
+45,3,"R22, R49, R52",22K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-0722KL
+46,1,R26,68K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-0768KL
+47,2,"R32, R45",33K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-1333KL
+48,1,R43,680,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-07680RL
+49,1,R46,220,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-13220RL
+50,1,R47,33,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-1333RL
+51,2,"R50, R51",4700,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-104K7L
+52,2,"R53, R54",10,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-SR0603FR-7T10RL
+53,1,R56,20.0K,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-103K3L
+54,1,R57,3920,Device:R_Small_US,Resistor_SMD:R_0603_1608Metric,603-RC0603FR-073K92L
+55,2,"RV1, RV2",10K,Device:R_Potentiometer_US,Theremin:PTV09A3015FB103,652-PTV09A-3015FB103
+56,8,"TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8",TestPoint,Connector:TestPoint,TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded,534-5002
+57,1,U1,LDK320-ADJ_SOT23_SOT353,Regulator_Linear:LDK130-ADJ_SOT23_SOT353,Package_TO_SOT_SMD:SOT-23-5,511-LDK320M-R

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Theremin")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Theremin.pretty")(options "")(descr ""))
+)

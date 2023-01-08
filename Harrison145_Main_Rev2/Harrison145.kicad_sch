@@ -1,0 +1,116 @@
+(kicad_sch (version 20221206) (generator eeschema)
+
+  (uuid fe6a253a-fbe7-4763-8fb6-20765e8d5d9d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 180.34 77.47) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 303cbd7d-3251-49a5-b98e-2cfab48c439f)
+    (property "Sheetname" "Variable Oscillator" (at 180.34 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VarOsc.kicad_sch" (at 180.34 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 104.14) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 50f38226-9983-4cce-802f-935330019731)
+    (property "Sheetname" "Mixer" (at 144.78 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mixer.kicad_sch" (at 144.78 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 144.78 77.47) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 76f6f0b3-8b63-456d-897f-67be02516869)
+    (property "Sheetname" "Volume Processor" (at 144.78 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VolProcessor.kicad_sch" (at 144.78 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 77.47) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid da22cfe7-cfea-4d69-bb2d-a68f4694277e)
+    (property "Sheetname" "Volume Oscillator" (at 111.76 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VolOsc.kicad_sch" (at 111.76 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 104.14) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dfa32f1a-941f-409e-ac16-27ee96c14cd3)
+    (property "Sheetname" "Pitch Reference Oscillator" (at 111.76 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pitch_osc.kicad_sch" (at 111.76 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 180.34 104.14) (size 22.86 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f332b456-7afa-40b4-9c1a-c302cd7face4)
+    (property "Sheetname" "AmpVReg" (at 180.34 103.4284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AudioAmpVreg.kicad_sch" (at 180.34 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Harrison145"
+        (path "/fe6a253a-fbe7-4763-8fb6-20765e8d5d9d" (page "7"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

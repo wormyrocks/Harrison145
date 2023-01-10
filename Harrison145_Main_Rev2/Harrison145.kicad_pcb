@@ -1278,7 +1278,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8594c394-9481-4bee-bdde-d08e509c9338)
     )
-    (fp_text value "20.0K" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "20.5K" (at 0 1.43) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a2966aa-3f19-4814-a01e-57d4a2c1fe5c)
     )
@@ -2338,8 +2338,8 @@
     (tags "capacitor")
     (property "Sheetfile" "pitch_osc.kicad_sch")
     (property "Sheetname" "Pitch Reference Oscillator")
-    (property "ki_description" "Polarized capacitor, small US symbol")
-    (property "ki_keywords" "cap capacitor")
+    (property "ki_description" "Unpolarized capacitor, small symbol")
+    (property "ki_keywords" "capacitor cap")
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/5b2fb9fc-00ca-4c47-b696-b8068a21aed2")
     (attr smd)
     (fp_text reference "C3" (at 0 -1.43) (layer "F.SilkS") hide
@@ -20225,8 +20225,8 @@
     (tags "capacitor")
     (property "Sheetfile" "VolOsc.kicad_sch")
     (property "Sheetname" "Volume Oscillator")
-    (property "ki_description" "Polarized capacitor, small US symbol")
-    (property "ki_keywords" "cap capacitor")
+    (property "ki_description" "Unpolarized capacitor, small symbol")
+    (property "ki_keywords" "capacitor cap")
     (path "/da22cfe7-cfea-4d69-bb2d-a68f4694277e/72756249-a6f1-48ec-a3ac-ae419cf7f47c")
     (attr smd)
     (fp_text reference "C29" (at 0 -1.43 90) (layer "F.SilkS") hide

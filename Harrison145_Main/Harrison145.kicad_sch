@@ -221,7 +221,7 @@
       (reference "C6") (unit 1) (value "150pF") (footprint "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/975af7ae-ce17-4722-a9db-5b00c4d402fd"
-      (reference "C7") (unit 1) (value "3.5-40pF") (footprint "Theremin:CAPV_JZ400")
+      (reference "C7") (unit 1) (value "3.5p") (footprint "Theremin:CAPV_JZ400")
     )
     (path "/dfa32f1a-941f-409e-ac16-27ee96c14cd3/f06500b5-7a2b-424e-8675-802b1c76d3fb"
       (reference "C8") (unit 1) (value "0.01uF") (footprint "Capacitor_SMD:C_0603_1608Metric")

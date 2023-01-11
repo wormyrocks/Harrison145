@@ -1,0 +1,24 @@
+* NOTE: KiCAD's spice parser doesn't seem to like the Vpk or Iave parameters
+
+*DIODE2.lib
+
+.model 1N4001 D(Is=14.11n N=1.984 Rs=33.89m Ikf=94.81 Xti=3 Eg=1.11 Cjo=25.89p M=.44 Vj=.3245 Fc=.5 Bv=75 Ibv=10u Tt=5.7u type=silicon mfg=GI)
+
+*INTERNAT.LIB
+.MODEL D1N4001 D (
++   IS =  1.001e-20
++   RS =  0.001
++   CJO =  1e-12
++   VJ =  0.75
++   TT =  5e-09
++   M =  0.3333
++   BV =  100
++   N =  1
++   EG =  1.11
++   XTI =  3
++   KF =  0
++   AF =  1
++   FC =  0.5
++   IBV =  0.0001
++   TNOM =  27
++)

@@ -1,0 +1,7 @@
+***** Control *****
+
+.tran 0.1u 12m 
+.control
+run
+plot A ylimit 2 5 xlimit 11m 11.01m
+.endc

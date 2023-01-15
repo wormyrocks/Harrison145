@@ -27,7 +27,6 @@ X1 Q1C 0 1812FS105_imp
 *L1 Q1C L1_DCR 1m 
 *R_L1DC L1_DCR 0 19.5
 
-
 C6 Q1C 0 150p
 
 * Varicap

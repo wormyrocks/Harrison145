@@ -1,7 +1,37 @@
+* READ THIS!! *
+* https://ngspice.sourceforge.io/ngspice-control-language-tutorial.html
+
 ***** Control *****
 
 .tran 0.1u 12m 
 .control
 run
-plot A ylimit 2 5 xlimit 11m 11.01m
+set probe_point=A
+set start_tm=11m
+set end_tm=11.005m
+plot $probe_point xlimit 11m 11.005m
+
+* Max, min, average
+meas tran ymax max $probe_point from=$start_tm to=$end_tm
+meas tran ymin min $probe_point from=$start_tm to=$end_tm
+meas tran ypp pp $probe_point from=$start_tm to=$end_tm
+meas tran yavg avg $probe_point from=$start_tm to=$end_tm
+set yavg_={$&yavg}(0)
+
+* Frequency and Period
+meas tran tdiff
++trig $probe_point val=$yavg_ rise=1 td=$start_tm;trig at=$start_tm
++targ $probe_point val=$yavg_ rise=2 td=$start_tm;targ at=$end_tm 
+
+let period_us={$&tdiff}*1000000
+let freq_khz=1/{$&tdiff}/1000
+
+echo
+echo YMax={$&ymax}V, YMin={$&ymin}V, YAvg={$&yavg}V, YVpp={$&ypp}V
+echo Period={$&period_us}us, freq={$&freq_khz}KHz
+echo
+
+
+* See section 22.6, "Data evaluation with Gnuplot"
+
 .endc

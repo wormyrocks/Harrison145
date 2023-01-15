@@ -1,5 +1,11 @@
 .title Harrison 145 Main
 
+* Notes
+* Good manual => https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml
+* Useful chapters
+* .meas: 15.4
+
+
 ***** MODELS ***** 
 .INCLUDE lib/1812LS.lib
 .INCLUDE lib/1812FS.lib
@@ -7,7 +13,7 @@
 .MODEL MMBT3904 NPN IS=4.639f NF=0.9995 ISE=2.091E-14 NE=1.6 BF=160.1 IKF=0.12 VAF=98.69 NR=1.001 ISC=3.257p NC=1.394 BR=5.944 IKR=0.06 VAR=19.29 RB=1 RE=0.3614 RC=1.755 XTB=0 EG=1.11 XTI=3 CJE=5.631p VJE=0.7002 MJE=0.3385 TF=3.001E-10 XTF=27 VTF=1.461 ITF=0.2723 CJC=4.949p VJC=0.5969 MJC=0.1928 XCJC=0.864 TR=9.4E-8 FC=0.5582 Vceo=40 Icrating=200m
 .model SM4001 D(Is=14.11n N=1.984 Rs=33.89m Ikf=94.81 Xti=3 Eg=1.11 Cjo=25.89p M=.44 Vj=.3245 Fc=.5 Bv=75 Ibv=10u Tt=5.7u)
 .MODEL j2N5484 NJF(Is=.25p Vto=-1.5 Vtotc=-3m Beta=3.0m Lambda=10m Betatce=-.5 Rd=10 Rs=10 Cgs=4p Cgd=4p Kf=3e-17)
-.model APot potentiometer( r=10k position=1 )
+.model APot potentiometer( r=10k position=0.5 )
 *******************
 
 .include FPO.cir

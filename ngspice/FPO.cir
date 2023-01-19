@@ -2,13 +2,11 @@
 
 ***** NETLIST *****
 
-V1 Vin 0 7.5
-
 R2 Vin Q1E 22k
 C1 Vin Q1B 1u
 R3 Q1B 0 10k
 R1 Vin Q1B 3.3k
-R4 Q1B Q2B 22k
+R4 Q1B Q2B 100k
 R10 Q1E R10_2 1Meg
 C8 R10_2 F 0.01u
 C4 Q2B Q1C 10p

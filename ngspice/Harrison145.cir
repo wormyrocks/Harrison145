@@ -16,7 +16,9 @@
 .model APot potentiometer( r=10k position=0.5 )
 *******************
 
+V1 Vin 0 7.5
 .include FPO.cir
+.include VPO.cir
 .include ctrl.cir
 
 .end

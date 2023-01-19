@@ -19,6 +19,7 @@
 V1 Vin 0 7.5
 .include FPO.cir
 .include VPO.cir
+.include FVO.cir
 .include ctrl.cir
 
 .end

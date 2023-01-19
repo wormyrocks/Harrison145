@@ -6,6 +6,10 @@ R2 Vin Q1E 22k
 C1 Vin Q1B 1u
 R3 Q1B 0 10k
 R1 Vin Q1B 3.3k
+
+* TODO: double check value of R4
+* What happens when we disconnect F?
+
 R4 Q1B Q2B 100k
 R10 Q1E R10_2 1Meg
 C8 R10_2 F 0.01u
@@ -40,6 +44,7 @@ RV2_2 RV2_Wiper 0 5K
 
 * Diode-y part
 C3 Q1C C3_2 100p
+R9 C3_2 0 1Meg
 D1 C3_2 D1_2 SM4001
 D2 0 D1_2 SM4001
 R8 D1_2 RV2_Wiper 1Meg
@@ -48,8 +53,8 @@ C2 RV2_Wiper 0 1u
 * JFET
 J3 Vin J3G A J2N5484
 R5 Vin J3G 4.7Meg
-C5 Q1C J3G 10p
 R6 J3G 0 2.7Meg
+C5 Q1C J3G 10p
 R7 A 0 2.2k
 
 ***** END NETLIST *****

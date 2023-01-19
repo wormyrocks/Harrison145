@@ -1,0 +1,54 @@
+.title FVO netlist
+
+***** NETLIST *****
+
+R35 Vin Q12E 22k
+C30 Vin Q12B 1u
+R37 Q12B 0 10k
+R36 Vin Q12B 3.3k
+R38 Q12B Q11B 100k
+C28 Q11B Q12C 10p
+
+* PNP order:
+* Collector -> Base   -> Emitter
+* (No arrow -> Middle -> Arrow )
+Q12 Q12C Q12B Q12E MMBT3906
+Q11 0 Q11B Q12E MMBT3906
+
+* Oscillator
+
+* Coilcraft model
+X4 Q12C 0 1812FS105_imp
+
+*L4 Q12C L4_DCR 1m 
+*R_L4DC L4_DCR 0 19.5
+
+C27 Q12C 0 330p
+
+* Varicap
+
+C25 Q1C 0 3.5p
+
+* Potentiometer
+
+R32 Vin R32_2 33K
+RV1_1 R32_2 RV1_Wiper 5K
+RV1_2 RV1_Wiper 0 5K
+*ARV1 0 RV1_Wiper R32_2 APot
+
+* Diode-y part
+C29 Q12C C29_2 100p
+R39 C29_2 0 1Meg
+D4 C29_2 D4_2 SM4001
+D5 0 D4_2 SM4001
+R40 D4_2 RV1_Wiper 1Meg
+C31 RV1_Wiper 0 1u
+
+* JFET
+J10 Vin J10G D J2N5484
+R33 Vin J10G 4.7Meg
+R34 J10G 0 2.7Meg
+C26 Q12C J10G 10p
+R31 D 0 2.2k
+
+***** END NETLIST *****

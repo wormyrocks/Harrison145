@@ -28,6 +28,9 @@ C16 Q6C 0 150p
 * TODO: parameterize this
 C14 PITCH_ANT 0 5p
 
+* Hand
+CRightHand PITCH_ANT 0 5p
+
 * JFET
 J5 Vin J5G B J2N5484
 R20 Vin J5G 4.7Meg

@@ -1,0 +1,38 @@
+.title VVO netlist
+ 
+* JFET
+* ngspice : Drain -> Gate -> Source
+* KiCad   : 2     -> 3    -> 1
+
+J8 Vin J8G J8S J2N5484
+R27 Vin J8G 4.7Meg
+R28 J8G 0 2.7Meg
+C19 VOL_ANT J8G 10p
+R29 J8S 0 2.2k
+C20 VOL_ANT D 10p
+
+* NPN order:
+* Collector -> Base   -> Emitter
+* (No arrow -> Middle -> Arrow )
+
+Q9 Q9C Q9B Q9E MMBT3904
+C23 J8S Q9B 0.1u
+D3 0 Q9B d1n914
+R30 Q9E 0 2.2k
+C22 Q9C 0 0.1u
+R26 Vin Q9C 68k
+J13 E J13G C J2N5484
+R41 J13G Q9C 100k
+C34 Q9B 0 0.1u
+
+* TODO: parameterize C24
+C24 VOL_ANT 0 5p
+
+C21 VOL_ANT 0 330p
+
+X3 VOL_ANT 0 1812FS105_imp
+*L3 VOL_ANT L3_DCR 1m 
+*R_L3DC L3_DCR 0 19.5
+
+* Hand
+CLeftHand VOL_ANT 0 5p

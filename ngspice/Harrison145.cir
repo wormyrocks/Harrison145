@@ -14,12 +14,17 @@
 .model SM4001 D(Is=14.11n N=1.984 Rs=33.89m Ikf=94.81 Xti=3 Eg=1.11 Cjo=25.89p M=.44 Vj=.3245 Fc=.5 Bv=75 Ibv=10u Tt=5.7u)
 .MODEL j2N5484 NJF(Is=.25p Vto=-1.5 Vtotc=-3m Beta=3.0m Lambda=10m Betatce=-.5 Rd=10 Rs=10 Cgs=4p Cgd=4p Kf=3e-17)
 .model APot potentiometer( r=10k position=0.5 )
+.model d1N914 D(Is=2.52n Rs=.568 N=1.752 Cjo=4p M=.4 tt=20n)
 *******************
 
 V1 Vin 0 7.5
+V2 V9V 0 9
 .include FPO.cir
 .include VPO.cir
 .include FVO.cir
+.include VVO.cir
+.include mixer.cir
+.include amp.cir 
 .include ctrl.cir
 
 .end

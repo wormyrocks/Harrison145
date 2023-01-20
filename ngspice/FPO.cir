@@ -7,7 +7,6 @@ C1 Vin Q1B 1u
 R3 Q1B 0 10k
 R1 Vin Q1B 3.3k
 
-* TODO: double check value of R4
 * What happens when we disconnect F?
 
 R4 Q1B Q2B 100k

@@ -9,7 +9,7 @@ run
 set probe_point=A
 set start_tm=11m
 set end_tm=11.005m
-gnuplot FPO $probe_point xlimit $start_tm $end_tm 
+plot $probe_point xlimit $start_tm $end_tm 
 
 * Max, min, average
 meas tran ymax max $probe_point from=$start_tm to=$end_tm

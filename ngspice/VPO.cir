@@ -12,7 +12,7 @@ C17 Q6B PITCH_ANT 10p
 * PNP order:
 * Collector -> Base   -> Emitter
 * (No arrow -> Middle -> Arrow )
-Q6 Q6C Q6B F MMBT3906
+Q6 0 Q6B F MMBT3906
 Q7 PITCH_ANT Q7B F MMBT3906
 
 * Oscillator
@@ -23,7 +23,7 @@ X2 PITCH_ANT 0 1812FS105_imp
 *L2 PITCH_ANT L2_DCR 1m 
 *R_L2DC L2_DCR 0 19.5
 
-C16 Q6C 0 150p
+C16 PITCH_ANT 0 150p
 
 * TODO: parameterize this
 C14 PITCH_ANT 0 5p

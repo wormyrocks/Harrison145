@@ -1,33 +1,62 @@
 .title Display script 
+
 .control
 setplot tran1
 
 * Time series analysis
-plot TP1 TP2 TP3 TP4 TP5 TP6 TP7 xlimit $start_tm $end_tm
+plot TP1 TP3 TP4 xlimit $start_tm $end_tm
+plot TP5 xlimit $start_tm $end_tm
+
+meas tran ypp pp TP1 
+meas tran yavg avg TP1 
+let vmin_calc={$&yavg}-{$&ypp}/2
+let vmax_calc={$&yavg}+{$&ypp}/2
+echo TP1 V Limits: {$&vmin_calc}v + {$&ypp}v = {$&vmax_calc}v
+echo TP1 Expected: 1.5v + 4.0v = 5.5v
+
+meas tran ypp pp TP3 
+meas tran yavg avg TP3 
+let vmin_calc={$&yavg}-{$&ypp}/2
+let vmax_calc={$&yavg}+{$&ypp}/2
+echo TP3 V Limits: {$&vmin_calc}v + {$&ypp}v = {$&vmax_calc}v
+echo TP3 Expected: 1.0v + 5.0v = 6.0v
+
+meas tran ypp pp TP4 
+meas tran yavg avg TP4 
+let vmin_calc={$&yavg}-{$&ypp}/2
+let vmax_calc={$&yavg}+{$&ypp}/2
+echo TP4 V Limits: {$&vmin_calc}v + {$&ypp}v = {$&vmax_calc}v
+echo TP4 Expected: 1.5v + 3.5v = 5.0v
 
 linearize
 set specwindow=blackman
 
 * Spectral analysis functions
-spec $start_freq $end_freq $freq_step v(tp1) v(tp3)
+spec $start_freq $end_freq $freq_step v(tp1) v(tp3) v(tp4)
 meas sp max_freq_fpo max_at v(tp1)
 echo FPO fundamental: {$&max_freq_fpo} Hz
 
 meas sp max_freq_vpo max_at v(tp3)
 echo VPO fundamental: {$&max_freq_vpo} Hz
 
-plot tp1 tp3 xlimit $start_freq $end_freq
+meas sp max_freq_fvo max_at v(tp4)
+echo FVO fundamental: {$&max_freq_fvo} Hz
+
+plot tp1 tp3 tp4 xlimit $start_freq $end_freq
 
 setplot tran2
 
 * Simple FFT
-fft v(tp1) v(tp3)
-plot v(tp1) v(tp3) xlimit $start_freq $end_freq
-meas sp max_freq_fpo_fft max_at v(tp1) from=1
+fft v(tp1) v(tp3) v(tp4)
+plot v(tp1) v(tp3) v(tp4) xlimit $start_freq $end_freq 
+meas sp max_freq_fpo_fft max_at v(tp1) from=$start_freq
 echo FPO fundamental (fft calculation): {$&max_freq_fpo_fft} Hz
 
-meas sp max_freq_vpo_fft max_at v(tp3)  from=1
+meas sp max_freq_vpo_fft max_at v(tp3) from=$start_freq
 echo VPO fundamental (fft calculation): {$&max_freq_vpo_fft} Hz
+
+meas sp max_freq_fvo_fft max_at v(tp4) from=$start_freq
+echo FVO fundamental (fft calculation): {$&max_freq_fvo_fft} Hz
 
 *set probe_point=a
 *** gnuplot stuff ***

@@ -5,11 +5,11 @@
 
 .control
 pre_set ngbehavior=ltps
-set start_tm=3m
-set end_tm=3.01m
+set start_tm=5m
+set end_tm=5.01m
 set time_step=0.1u
 
-set start_freq=200k
+set start_freq=100k
 set end_freq=400k
 set freq_step=500
 

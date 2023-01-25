@@ -1,0 +1,25 @@
+***** Net aliases *****
+* These do NOT correspond to the labeled test points on the rev 1 PCB,
+* they are in the wrong places!
+
+* TP1 / A: output of the FIXED PITCH OSC
+R1001 A TP1 0
+
+* TP2 / C: output of the MIXER
+R1002 C TP2 0
+
+* TP3 / B: output of the VAR PITCH OSC
+R1003 B TP3 0
+
+* TP4 / D: output of the FIXED VOL OSC
+R1004 D TP4 0
+
+* TP5 / J8S: slope detector buffered output
+R1005 J8S TP5 0
+
+* TP6 / Q9C: volume processor output
+R1006 Q9C TP6 0
+
+* TP7 / Q14C: audio preamp output
+R1007 Q14C TP7 0
+

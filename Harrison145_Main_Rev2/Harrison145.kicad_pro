@@ -628,15 +628,15 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Spice",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
-      "model_mode": 2,
-      "workbook_filename": "sims\\FPO.wbk"
+      "model_mode": 4,
+      "workbook_filename": "FPO.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -654,7 +654,7 @@
     ],
     [
       "dfa32f1a-941f-409e-ac16-27ee96c14cd3",
-      "Pitch Reference Oscillator"
+      "FPO"
     ],
     [
       "50f38226-9983-4cce-802f-935330019731",
@@ -662,15 +662,15 @@
     ],
     [
       "303cbd7d-3251-49a5-b98e-2cfab48c439f",
-      "Variable Oscillator"
+      "VPO"
     ],
     [
       "da22cfe7-cfea-4d69-bb2d-a68f4694277e",
-      "Volume Oscillator"
+      "FVO"
     ],
     [
       "76f6f0b3-8b63-456d-897f-67be02516869",
-      "Volume Processor"
+      "VVO"
     ],
     [
       "f332b456-7afa-40b4-9c1a-c302cd7face4",

@@ -6,16 +6,16 @@
   (property "Sheetname" "")
   (property "ki_description" "Mounting Hole with connection")
   (property "ki_keywords" "mounting hole")
-  (fp_text reference "H5" (at 0 -6.35 180) (layer "F.SilkS") hide
+  (fp_text reference "H3" (at 0 -6.35 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 06eb5e20-1fcd-4057-b2ab-07ee672a7bae)
+    (tstamp 4b215c0b-b31c-44db-859b-7fee368a64c2)
   )
-  (fp_text value "PITCH_ANT" (at 0 6.35 180) (layer "F.Fab")
+  (fp_text value "LINE_OUT" (at 0 6.35 180) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 476eb2dd-38b0-4bca-9e9a-661161169f7d)
+    (tstamp d16888a0-0458-4586-9726-257b73d81da7)
   )
-  (pad "1" thru_hole circle (at 0 0) (size 9.37 9.37) (drill 6.35) (layers "*.Cu" "*.Mask")
-    (clearance 0.75) (zone_connect 1) (thermal_bridge_width 2) (tstamp 299a1ff9-dd79-4ac3-9846-82d36d8b2f03))
+  (pad "1" thru_hole circle (at 0 0) (size 9.37 9.37) (drill 6.35) (layers "*.Cu" "F.Mask")
+    (clearance 0.75) (zone_connect 1) (thermal_bridge_width 2) (tstamp 1a283834-3b88-46db-8239-d49fc205d788))
   (model "${KIPRJMOD}/Libraries/Theremin.pretty/SMTSO-M4-2ET-PennEngineering-3D-12-14-2022.stp"
     (offset (xyz 0 0 -1.5))
     (scale (xyz 1 1 1))

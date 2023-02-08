@@ -1,0 +1,16 @@
+(footprint "MicStandHole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at -5.32 -11.37 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1d0218ee-776d-4ffd-b143-8cea21faf6e8)
+  )
+  (fp_text value "MicStandHole" (at -5.32 -9.87 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 90a6c0b2-d525-4af8-b047-1058a83b3dbf)
+  )
+  (fp_text user "${REFERENCE}" (at -5.32 -8.37 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9ecf6467-4cda-414f-a2ed-193f0edd6205)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 25 25) (drill 18) (layers "F.Cu" "F.Mask") (tstamp 71428a8a-d7bb-4a01-a89b-9965c5f737e3))
+)
